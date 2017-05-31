@@ -1,0 +1,27 @@
+//File Name:p01_0212239.cpp
+//Author:翁健豪
+//Email Address:howarder3@gmail.com
+//Assignment Number:1
+//Description:Tell user the weight of the diet soda pop the dieter could drink without dying(unit:g).
+//Last Changed:September 24,2013
+
+(1).The purpose of this program:
+
+利用C++程式的計算，告訴使用者最多能喝多少減肥汽水。
+
+(2).The difficulty you encountered when writing this program:
+
+在遇到這一段程式：
+cout.setf(ios::fixed);
+cout.setf(ios::showpoint);
+cout.precision(2);
+花了很多時間去理解，最後是用小部分刪去程式碼反覆執行程式並進行比對，去推論而出這段程式碼所代表的意義。
+原來會影響計算精準度與最後顯示出的小數點位數，如同老師上課所說，
+實際測試後更能理解老師所想表達的意思。
+(後來因為老師指定將結果以整數輸出，故此部分在程式中已刪去。)
+
+(3).Anything special in your program:
+
+一開始製作程式的時候，想到每一次都只有單單跑出結果，卻沒有告訴使用者是如何算出來的，
+為了解決這個疑惑，我將計算過程化作程式語言清楚的表示了出來讓使用者明白計算過程的一個步驟接一個步驟，
+以及他們之間的關聯性，透過這個設計，使用者能更明瞭我是如何算出這個答案的。
